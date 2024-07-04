@@ -138,7 +138,6 @@ def q9():
         cabecote2 += 1
     if fita1[cabecote1] == '\0' and fita2[cabecote2] == '\0':
         cabecote1 += 1
-        fita1.pop()
         q10aq16()
     return
 
@@ -151,6 +150,7 @@ def q10aq16():
 
 def imprimirResultado():
     global fita1
+    fita1.pop()
     for char in fita1:
         print(char, end="")
     print(" ", end="")
