@@ -89,7 +89,6 @@ def q5():
     return
 
 
-
 def q6():
     global fita1, fita2, cabecote1, cabecote2
     while ((fita1[cabecote1] == '1' and fita2[cabecote2] == '1') or
